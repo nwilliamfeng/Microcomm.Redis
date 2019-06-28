@@ -5,7 +5,7 @@ using StackExchange.Redis;
 
 namespace Microcomm.Redis
 {
-    public static class DataBaseExtension
+    public static class DatabaseExtension
     {
         public static RedisValue[] SortedSetRangeByPaging(this IDatabase database,RedisKey key,   int pageIndex, int pageSize=10, Order order = Order.Ascending, CommandFlags flags = CommandFlags.None)
         {
