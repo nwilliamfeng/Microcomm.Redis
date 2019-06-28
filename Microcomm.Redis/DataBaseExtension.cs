@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Microcomm.Redis
 {
-    public class Class1
+    public class DataBaseExtension
     {
     }
 }
